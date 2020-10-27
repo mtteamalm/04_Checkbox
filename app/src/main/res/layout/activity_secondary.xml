@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondaryActivity">
+
+    <TextView
+        android:id="@+id/textViewAccionesPremium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Opciones para usuarios Premium" />
+
+    <CheckBox
+        android:id="@+id/checkBoxInforme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="Informe Mensual" />
+
+    <CheckBox
+        android:id="@+id/checkBoxEnvio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="Envio Gratuito" />
+
+    <Button
+        android:id="@+id/buttonPremium"
+        android:onClick="activarOpcionesPremium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soy Premium" />
+</LinearLayout>

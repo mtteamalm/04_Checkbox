@@ -47,4 +47,18 @@
         android:layout_marginTop="236dp"
         android:ems="10"
         android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/buttonSecondaryActivity"
+        android:onClick="abrirActivitySecundaria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginLeft="149dp"
+        android:layout_marginBottom="95dp"
+        android:text="Ir a la siguiente pantalla" />
 </RelativeLayout>

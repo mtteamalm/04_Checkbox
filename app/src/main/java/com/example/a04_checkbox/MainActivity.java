@@ -2,6 +2,7 @@ package com.example.a04_checkbox;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -67,5 +68,10 @@ public class MainActivity extends AppCompatActivity {
         // para determinar si el checkbox ha sido clicado o no.
         Toast.makeText(this, "Estado: " + (myBox.isChecked() ? " Checkeado" : " No Chequeado"),
                 Toast.LENGTH_LONG).show();
+    }
+
+    public void abrirActivitySecundaria(View view) {
+        Intent ActivitySecundaria = new Intent(this, SecondaryActivity.class);
+        startActivity(ActivitySecundaria);
     }
 }
